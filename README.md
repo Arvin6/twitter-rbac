@@ -66,6 +66,8 @@
       - 2. UPDATE action on tweet X that was requested to be updated.
     - If you check logs, you can also find Access logs pertaining to the login events you made.
 
+That covers the basic validation. Feel free to play around further :)
+
 ## Database
 - Sqlite3 (for simplicity sake, will prefer postgress for a production grade application)
 
