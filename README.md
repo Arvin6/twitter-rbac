@@ -6,7 +6,7 @@
 - Open your browser and navigate to http://localhost:8000/
 
 ## How to login
-- This is a headless backend app, so we will use Swagger UI to interact with it. This will display the API documentation in a convenient, usable form.
+- This is a headless backend app, so we will use Swagger UI to interact with it. This will display the API documentation along with example payloads in a convenient and usable form.
 - Scroll down to the `token` section of the UI and you will be able to login with the credentials. 
 - If the login is successful, you will be see a  `jwt token` in the response.
 - Copy this `token` and navigate to the top right of the UI. Now click on the Authorize button, paste the token in the format specified below and then click on the login button.
