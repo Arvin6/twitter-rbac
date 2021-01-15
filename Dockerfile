@@ -14,3 +14,4 @@ RUN pip install -r /tmp/requirements.txt
 
 COPY . /app
 WORKDIR /app/
+CMD ["gunicorn twitter.wsgi -b 0.0.0.0:8000 -w=10"]
